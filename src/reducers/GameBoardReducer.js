@@ -1,3 +1,3 @@
-export default () => ["x", null, null,
+export default () => [null, null, null,
                       null, null, null,
-                      null, null, "0",];
+                      null, null, null];

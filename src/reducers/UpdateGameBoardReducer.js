@@ -1,8 +1,8 @@
 export default (state = null, action) => {
-  console.log(state);
+  console.log(action)
   switch(action.type) {
     case 'GAME_UPDATE' :
-      return action.payload;
+      return state
     default:
       return state;
   }
