@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display: grid;
+  grid-template-areas: "head head head"
+                      "lefty game righty"
+                      "bottomy bottomy bottomy";
 }
 
 .App-logo {
@@ -13,6 +17,7 @@
   padding: 20px;
   color: white;
   display: block;
+  grid-area: head;
 }
 
 .App-title {
@@ -28,6 +33,7 @@
   border-radius: 15px;
   display: flex;
   flex-direction: column;
+  grid-area: game;
 }
 
 .board-row {
@@ -41,4 +47,15 @@
   border: 1px solid black;
   flex: 1;
   border-radius: 15px;
+}
+
+.left-div {
+  grid-area: lefty;
+}
+.right-div {
+  grid-area: righty;
+}
+.bottom-div {
+  grid-area: bottomy;
+  height: 150px;
 }

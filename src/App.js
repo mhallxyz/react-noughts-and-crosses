@@ -15,7 +15,10 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">Nodes & Isotopes</h1>
         </header>
+        <div className='left-div'></div>
         <GameBoard />
+        <div className='right-div'></div>
+        <div ckassName="bottom-div"></div>
       </div>
       </Provider>
     );
